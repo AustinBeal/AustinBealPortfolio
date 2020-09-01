@@ -1,0 +1,138 @@
+body{
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to top, rgb(68, 10, 68), rgb(110, 14, 110), rgb(151, 46, 151), rgb(255, 94, 188));
+}
+.sidenav { 
+  border-top: 0px;
+  height: 100vh; 
+  width: 70px; 
+  position: fixed; 
+  z-index: 1; 
+ top: 0; 
+  left: 0;
+  background-color: rgb(44, 2, 61); 
+  overflow-x: hidden; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  
+  
+}
+.centersidenav{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.placeholder{
+  list-style-type: none;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  background-size: cover;
+  background-image: url(./images/placeholder\ icon-vaporwavestyle.png);
+}
+.placeholder1{
+  list-style-type: none;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  margin-bottom: 60px;
+  
+  background-size: cover;
+  background-image: url(./images/placeholder\ icon-vaporwavestyle.png);
+}
+.placeholderlast{
+  list-style-type: none;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  margin-top: 60px;
+  
+  background-size: cover;
+  background-image: url(./images/placeholder\ icon-vaporwavestyle.png);
+}
+.iconbox{
+  opacity: 0;
+  transition: ease-in-out 1s;
+ 
+}
+.iconbox:hover{
+  opacity: 1;
+  transition: ease-in-out 1s;
+  stroke-dasharray: 600;
+  animation: encompass 2800ms infinite linear;
+}
+@keyframes encompass {
+  0% {
+  
+    stroke-dashoffset: 4800 ;
+  }
+  100% {
+    stroke-dashoffset:1200 ;
+  }
+ 
+}
+
+.topnav{
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  padding: 20px;
+  margin-right: 0;
+  margin-left: 55%;
+  width: 40%; 
+  display: flex;
+  justify-content: space-around;
+  color: aliceblue;
+}
+.toplinks{
+  background-color: rgba(138, 43, 226,.5);
+  padding: 15px 25px;
+  border: solid rgba(255, 255, 255, .25)  2px;
+  transition: all 0.5s;
+  position: relative;
+}
+.toplinks::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(255,255,255,0.25);
+  transition: all 0.3s;
+}
+.toplinks:hover::before {
+  opacity: 0 ;
+  transform: scale(0.5,0.5);
+}
+.toplinks::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 2px solid rgba(255,255,255,0.5);
+  transform: scale(1.2,1.2);
+}
+.toplinks:hover::after {
+  opacity: 1;
+  transform: scale(1,1);
+}
+.centercontainer{
+
+}
+
+
+
+
+
+
