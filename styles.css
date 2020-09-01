@@ -31,8 +31,13 @@ body{
   width: 60px;
   height: 60px;
   margin: auto;
+  transition: ease-in-out 1s;
   background-size: cover;
   background-image: url(./images/placeholder\ icon-vaporwavestyle.png);
+}
+.placeholder:hover{
+  box-shadow: 1px 1px 5px 5px rgba(255, 255, 255, .5);
+  transition: ease-in-out 1s;
 }
 .placeholder1{
   list-style-type: none;
@@ -50,20 +55,21 @@ body{
   height: 60px;
   margin: auto;
   margin-top: 60px;
-  
   background-size: cover;
   background-image: url(./images/placeholder\ icon-vaporwavestyle.png);
 }
 .iconbox{
   opacity: 0;
   transition: ease-in-out 1s;
- 
+  margin: 0px;
+  height: 60px;
+  width: 60px;
 }
 .iconbox:hover{
   opacity: 1;
   transition: ease-in-out 1s;
-  stroke-dasharray: 600;
-  animation: encompass 2800ms infinite linear;
+  stroke-dasharray: 60;
+  animation: encompass 20s infinite linear;
 }
 @keyframes encompass {
   0% {
