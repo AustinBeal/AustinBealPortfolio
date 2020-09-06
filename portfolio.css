@@ -278,7 +278,22 @@ a:active, a:link, a:visited, a:hover{
   font-family: 'Permanent Marker', cursive;
   text-shadow: 0px 0px 4px rgb(79, 202, 202), 0px 0px 4px white;
 }
+#austinb{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  box-shadow: 1px 1px 5px 5px rgba(34, 248, 248, 0.5);
+  margin: auto;
+  margin-top: 5%;
+}
 .myport{
+  margin-top: 130px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.myportb{
+  margin-top: 50px;
+  margin-bottom: 130px ;
+  font-size: 25px;
   grid-column-start: 1;
   grid-column-end: 3;
 }
@@ -289,6 +304,8 @@ a:active, a:link, a:visited, a:hover{
   grid-column-start: 1;
   grid-column-end: 3;
   margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 #hublass{
   width: 100%;
@@ -303,7 +320,10 @@ a:active, a:link, a:visited, a:hover{
   width: 100%;
 }
 #jake{
-  width: 100%;
+  width: 50%;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin: auto;
 }
 .developmentcontainer{
   grid-column-start: 1;
@@ -406,6 +426,23 @@ a:active, a:link, a:visited, a:hover{
        height: 50px;
        width: 50px;
        margin-top: 10px;
+     }
+     .centercontainer{
+       grid-template-columns: 100%;
+     }
+     .myportb{
+       margin-bottom: 20px;
+     }
+     #jake{
+      width: 100%;
+      grid-column-start: 1;
+      grid-column-end: 1;
+      margin: auto;
+     }
+     #elixirlogo{
+       margin-top: 10px ;
+       margin-bottom: 10px ;
+       
      }
 }
 

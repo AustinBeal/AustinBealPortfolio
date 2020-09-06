@@ -254,7 +254,7 @@ a:active, a:link, a:visited, a:hover{
 /* MAIN BODY */
 .maincontainer{
   width:100%;
-  height: 1000px;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -264,23 +264,19 @@ a:active, a:link, a:visited, a:hover{
   margin-left: 70px;
   margin-top: -70px;
   width:80%;
-  height: 1000px;
+  height: 75%;
   border: solid 3px rgba(221, 255, 255, .75);
   box-shadow: 1px 1px 5px 5px rgba(34, 248, 248, 0.5);
-  display: grid;
-  grid-template-rows: repeat(5, 1fr);
-  grid-template-columns: 50% 50%  ;
+
 }
-.elixircontainer{
-  width: 100px;
-  height: 100px;
-  background-image: url(./images/elixirlogo.jpg);
-  display: grid;
-}
-#elixirlogo{
-  width: 100%;
-  
-}
+/*.centercontainer span{
+ position: absolute;
+ top: 25%;
+ width: 80%;
+ box-shadow: 1px 1px 5px 5px rgba(34, 248, 248, 0.5);
+ border: solid 1px rgb(221, 255, 255);
+ z-index: 2;
+}*/
 #mountian{
   position: sticky;
   bottom: 0px;
@@ -288,8 +284,29 @@ a:active, a:link, a:visited, a:hover{
   z-index: 0;
  
 }
+.namecontainer{
+width: 100% ;
+display: flex;
+justify-content: center;
+
+}
 #name{
   display: none;
+}
+.contentcontainer{
+  width: 100%;
+  height: auto;
+  margin-top: -30px;
+  text-align: center;
+  font-size: 60px;
+  color: rgb(223, 87, 189);
+  font-family: 'Permanent Marker', cursive;
+  text-shadow: 0px 0px 4px rgb(79, 202, 202), 0px 0px 4px white;
+}
+.contentcontainer p{
+  color: lightpink;
+  margin: 0px ;
+  text-shadow: 0px 0px 4px rgb(182, 3, 167), 0px 0px 6px white;
 }
 h4{
   font-size: 25px;
