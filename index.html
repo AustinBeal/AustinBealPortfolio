@@ -4,61 +4,89 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
   <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
-  <title>PORFOLIO!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Teko:wght@700&display=swap" rel="stylesheet">
+
+  <script src="./javamain.js"></script>  
+  <title>Austin Beal</title>
 </head>
 <body>
   <aside class="sidenav">
     <div>
-      <li class="placeholder1"></li>
+      <li class="placeholder1" id="hamburger" onclick="toggleBar()">
+        
+        <svg class="iconbox">
+        <rect width="60px" height="60px" margin="0" style="fill: none; stroke-width:3px; stroke:rgb(6, 255, 255)"></rect> 
+        </svg>      
+      </li>
     </div>
     <div class="inputcont">
-     
     </div>
     <div class="centersidenav">
-      <li class="placeholder">
-        <svg class="iconbox">
-          <rect width="60px" height="60px" margin="0" style="fill: none; stroke-width:3px; stroke:rgb(6, 255, 255)"></rect> 
+      <li class="placeholder" onclick="openWinGit()">
+        <svg class="iconbox" >
+        <rect  width="60px" height="60px" margin="0" style="fill: none; stroke-width:3px; stroke:rgb(6, 255, 255)"></rect> 
         </svg>
       </li>
-      <li class="placeholder">
+      <li class="placeholder2" onclick="openWinLink()">
         <svg class="iconbox">
         <rect width="60px" height="60px" margin="0" style="fill: none; stroke-width:3px; stroke:rgb(6, 255, 255)"></rect> 
       </svg>
     </li>
-      <li class="placeholder"><svg class="iconbox">
+      <li class="placeholder3" onclick="openWinInsta()">
+        <svg class="iconbox">
         <rect width="60px" height="60px" margin="0" style="fill: none; stroke-width:3px; stroke:rgb(6, 255, 255)"></rect> 
       </svg>
     </li>
-      <li class="placeholder"><svg class="iconbox">
+      <li class="placeholder4" onclick="openWinCode()">
+        <svg class="iconbox">
         <rect width="60px" height="60px" margin="0" style="fill: none; stroke-width:3px; stroke:rgb(6, 255, 255)"></rect> 
       </svg>
     </li>
-      <li class="placeholder"><svg class="iconbox">
+      <li class="placeholder5" onclick="openWinEtsy()">
+        <svg class="iconbox">
         <rect width="60px" height="60px" margin="0" style="fill: none; stroke-width:3px; stroke:rgb(6, 255, 255)"></rect> 
       </svg>
     </li>
     </div>
     <div>
-      <li class="placeholderlast"></li>
+      <li class="placeholderlast" onclick="window.location.href='./thanks.html'">
+        <svg class="iconbox">
+          <rect width="60px" height="60px" margin="0" style="fill: none; stroke-width:3px; stroke:rgb(6, 255, 255)"></rect> 
+        </svg>
+      </li>
     </div>
   </aside>
   <main>
-    <nav class="topnav">
-      <a class="toplinks">About</a>
-      <a class="toplinks">Portfolio</a>
-      <a class="toplinks">Resume</a>
-      <a class="toplinks">Contact</a>
+    <nav id="topnav">
+      <div></div>
+      <a class="toplinks" id="linkbuttons" href="./index.html">Home</a>
+      <a class="toplinks" id="linkbuttons" href="./about.html">About</a>
+      <a class="toplinks" id="linkbuttons" href="./portfolio.html">Portfolio</a>
+      <a class="toplinks" id="linkbuttons" href="./resume.html">Resume</a>
+      <a class="toplinks" id="linkbuttons" href="./contact.html">Contact</a>
     </nav>
     <div class="maincontainer">
-
+      <div class="centercontainer">
+        <div class="namecontainer">
+          <img src="./images/Austin1.png" id="name" alt="" ></img>
+        </div>
+        <div class="contentcontainer">
+          Web Developer & Graphic Designer
+          <p>I create, code and customize. To your hearts content.</p>
+  
+        </div>
+      </div>
     </div>
-    <div class="centercontainer">
+    <div class="sunsetcontainer">
+      <img src="./images/sunset1.png" id="sunset" alt="sunset">
+      <img src="./images/sunset1bkgrnd.png" id="sunsetbkgrnd" alt="sunsetbackground">
+      <img src="./images/cloudforsunset.png" id="cloud1" alt="a cloud">
+      <img src="./images/cloudforsunset2.png" id="cloud2" alt="a cloud">
+      <img src="./images/cloudforsunset3.png" id="cloud3" alt="a cloud">
 
-    </div>
-
-    
-
-
+    </div> 
+    <img src="./images/mountian2.png" id="mountian" alt="polygonal mountians" ></img>
   </main>
 
 </body>
