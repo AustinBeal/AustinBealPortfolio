@@ -203,6 +203,9 @@ body{
   100%{stroke: rgb(182, 73, 149)
   }
 }
+.smallp{
+  font-size: 40px;
+}
 /* PULLOUT LINKS */
 .toplinks{
   background-color: rgba(138, 43, 226,.5);
@@ -211,7 +214,7 @@ body{
   transition: all 0.5s;
   display: flex;
   margin: 0px 5px;
-  z-index: 3;
+  z-index: 5;
 }
 .toplinks:hover{
   background-color: violet;
@@ -291,9 +294,9 @@ justify-content: center;
 
 }
 #name{
-  
-  width: 60vw;
   z-index: 3;
+  width: 60vw;
+  z-index: 2;
 }
 .contentcontainer{
   width: 100%;

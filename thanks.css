@@ -295,7 +295,7 @@ justify-content: center;
 #name{
   
   width: 60vw;
-  z-index: 3;
+  z-index: 2;
 }
 .contentcontainer{
   width: 100%;
@@ -303,7 +303,7 @@ justify-content: center;
   margin-top: -30px;
   text-align: center;
   font-size: 60px;
-  color: rgb(223, 87, 189);
+  color: lightblue;
   font-family: 'Permanent Marker', cursive;
   text-shadow: 0px 0px 4px rgb(79, 202, 202), 0px 0px 4px white;
 
@@ -313,6 +313,10 @@ justify-content: center;
   margin: 0px ;
   text-shadow: 0px 0px 4px rgb(182, 3, 167), 0px 0px 6px white;
 
+}
+.smallthanks{
+  font-size: 20px;
+  color: white;
 }
 /*HEIGHT QUERYS*/
 @media (max-height: 575px){

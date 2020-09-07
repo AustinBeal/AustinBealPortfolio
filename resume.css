@@ -277,6 +277,7 @@ a:active, a:link, a:visited, a:hover{
   width: 100%;
   z-index: 0;
  
+ 
 }
 .namecontainer{
 width: 100% ;
@@ -287,7 +288,7 @@ justify-content: center;
 #name{
   
   width: 60vw;
-  z-index: 3;
+  z-index: 2;
 }
 .contentcontainer{
   width: 100%;
@@ -366,6 +367,8 @@ justify-content: center;
   }
   .maincontainer{
     margin-top: 10px;
+    height: 100%;
+    
   }
   .centercontainer{
       margin: 0px;
@@ -373,6 +376,10 @@ justify-content: center;
   .contentcontainer{
     font-size: 30px;
     margin: 0px 0px;
+    
+  }
+  p{
+    font-size: 12px;
   }
   .sidenav { 
     height: 70px ; 
@@ -419,6 +426,18 @@ justify-content: center;
        height: 50px;
        width: 50px;
        margin-top: 10px;
+     }
+     .centerbody p{
+      font-size: 12px;
+     }
+     .centerbody h2{
+      font-size: 18px;
+     }
+     .sidebody p{
+      font-size: 10px;
+     }
+     .sidebody h2{
+      font-size: 18px;
      }
 }
 
